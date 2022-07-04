@@ -1,0 +1,111 @@
+.parent{
+    color:white;
+    border: 8px red solid;
+background-color: black;
+width: 330px;
+height: 120px;
+border-radius:30px;
+font-size: 30px;
+font-style: oblique;
+padding-top: 15px;
+position: relative;
+left:20px;
+}
+.child{ color:white;
+    border: 8px red solid;
+background-color: black;
+width: 400px;
+border-radius:30px;
+padding-top: 20px;
+padding-left: 60px;
+padding-bottom: 10px;
+font-size: 30px;
+font-style: oblique;
+position: relative;
+left: 220px;
+bottom: 80px;
+}
+.contact{ color:white;
+    border: 8px red solid;
+background-color: black;
+width: 250px;
+height: 120px;
+border-radius:30px;
+font-size: 20px;
+font-style: oblique;
+padding-top: 15px;
+padding-left: 50px;
+padding-right: 50px;
+position: absolute;
+left: 880px;
+top: 10px;
+}
+.circle{
+    background-color: rgba(22, 181, 147, 0.776);
+    border: solid grey 5px;
+    display: flex;
+margin: 2px;
+width: 290px;
+height: 250px;
+border-radius: 50%;
+font-style: oblique;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+position: absolute;
+left: 20px;
+top:350px;
+text-align: center;
+padding-top: 50px;
+
+}
+
+.form{
+    border: dashed red 7px;
+    width: 350px;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: red;
+}
+.menu{  color:white;
+    border: 6px red solid;
+background-color: black;
+border-radius:20px;
+font-size: 20px;
+width: 380px;
+height: 5px;
+font-style: italic;
+padding-top: 10px;
+padding-bottom: 30px;
+position: absolute;
+top: 900px;
+left: 450px; 
+}
+.flex{
+    color: rgb(114, 42, 182); 
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 1000px;
+}
+.flex-str{ 
+background-color: rgba(12, 217, 231, 0.854);
+width: 300px;
+border: solid green;
+margin: 30px;
+border-radius: 50px;
+
+}
+body{
+    background-image: url(rest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 100px  100px 100px 100px
+    ;
+}
